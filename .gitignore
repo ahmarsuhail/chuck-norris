@@ -1,5 +1,6 @@
 # misc
 .DS_Store
+.env
 
 # --- server ----
 
@@ -12,5 +13,6 @@ server/.serverless
 
 # --- client ---
 client/node_modules
+
 
 

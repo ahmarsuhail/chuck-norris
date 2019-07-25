@@ -17,7 +17,7 @@ A serverless application that wraps the chuck norris API (https://api.chucknorri
 * Create a user from your AWS account and use those credentials to configure serverless:
 ``` serverless config credentials --provider aws --key <user_key> --secret <user_secret> ```
 * Deploy server to AWS: ```cd server && serverless deploy ``` 
-* Use the endpoint returned from serverless and update in config file
+* Use the endpoint returned from serverless, create a .env file in your parent directory & add ```REACT_APP_GRAPHQL_ENDPOINT="<your endpoint>"```
 * Run client: ``` cd client && npm start ```
 
 # Todo #
