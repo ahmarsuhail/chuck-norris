@@ -1,0 +1,14 @@
+service: chuck-serverless
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  
+functions:
+  graphql:
+        handler: handler.graphqlHandler
+        events:
+        - http:
+            path: graphql
+            method: post
+            cors: true                   

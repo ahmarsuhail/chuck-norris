@@ -1,0 +1,16 @@
+# misc
+.DS_Store
+
+# --- server ----
+
+# package directories
+server/node_modules
+server/jspm_packages
+
+# Serverless directories
+server/.serverless
+
+# --- client ---
+client/node_modules
+
+
