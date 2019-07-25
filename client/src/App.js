@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import Wrapper from './styled-components/Wrapper'
 
 const client = new ApolloClient({
-  uri: 'https://0090fny0yc.execute-api.us-east-1.amazonaws.com/dev/graphql'
+  uri: process.env.REACT_APP_GRAPHQL_ENDPOINT
 })
 
 function App() {
